@@ -1,0 +1,68 @@
+html{
+    box-sizing: border-box;
+}
+
+* , *::after , *::before{
+    box-sizing: inherit;
+}
+
+/* .first-img, .sec-img, .third-img, .fourth-img{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+.first-img{
+    background-image: url(img/parellex1..jpg);
+    min-height: 400px;
+}
+
+.sec-img{
+    background-image: url(img/parllex2.jpeg);
+    min-height: 400px;
+}
+
+.third-img{
+    background-image:url(img/parellex1..jpg);
+    min-height: 400px;
+
+}
+
+.fourth-img{
+    background-image: url(img/parllex2.jpeg);
+    min-height: 400px;
+}
+
+.first-img, .sec-img, .third-img, .fourth-img{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    text-align: center;
+    padding: 3rem 5rem;
+}
+
+section h2{
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
+
+.dark{
+    background-color: black;
+    color: beige;
+}
+
+.light{
+    background-color:firebrick;
+    color: beige;
+}
+
+/* .first-img span{
+    position: relative;
+    color: aqua;
+    padding-top: 5rem;
+    padding-left: 10rem;
+} */

@@ -1,0 +1,15 @@
+h1{
+    color: blue;
+}
+
+td{
+    color: brown;
+    background-color: aqua;
+}
+div :first-child{
+    background-color: aquamarine;
+    font-size: x-small;
+}
+form{
+    background-color: brown;
+}

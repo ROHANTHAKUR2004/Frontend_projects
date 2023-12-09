@@ -1,0 +1,22 @@
+html{
+    box-sizing: border-box;
+}
+* , *:before, *:after {
+    box-sizing: inherit;
+}
+#parent{
+    border: solid red 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    background: linear-gradient(rgb(103, 44, 44),rgb(187, 74, 74));
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+#parent div{
+    border: solid black 2px;
+    padding: 20px;
+    background-color: blueviolet;
+    width: 200px;
+}

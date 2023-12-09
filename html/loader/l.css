@@ -1,0 +1,61 @@
+html{
+    box-sizing: border-box;
+}
+
+* , *::after , *::before{
+    box-sizing: inherit;
+}
+
+.loder1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: aqua;
+}
+
+.loder1 > div{
+    border: 5px solid red;
+    width: 4rem;
+    height: 4rem;
+    border-top: 5px solid white;
+    border-radius: 50%;
+    animation: spin1 2s linear infinite;
+}
+
+@keyframes spin1 {
+    from {
+        transform: rotate(0);
+    } 
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.loder2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: chocolate;
+}
+
+.loder2> div{
+    border: 5px solid red;
+    width: 4rem;
+    height: 4rem;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    border-radius: 50%;
+    animation: spin2 2s linear infinite;
+}
+
+@keyframes spin2 {
+    from {
+        transform: rotate(0);
+    } 
+    to {
+        transform: rotate(360deg);
+    }
+}

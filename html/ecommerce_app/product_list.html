@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product list</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/product_list.css">
+</head>
+<body>
+    <div class="product-list">
+
+        <nav id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="header-wrapper d-flex justify-content-between">
+                        <div class="logo d-inline-block">
+                            <a href="e.html" class="text-decoration-none">Shop Cart</a>
+                        </div>
+                        <div class="user-action d-flex flex-row">
+                            <a href="cart.html">Cart</a>
+                            <div class="user-intro" id="userintro">Hi user</div>
+                            <div class="logout-btn" id="logoutbtn">Logout</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+      <div class="container">
+        <div class="row">
+            <h2 class="text-center product-list-title">All Products</h2>
+            <div class="prosuct-list-wrapper d-flex flex-row">
+                <!-- sidebar -->
+                <div class="product-list-sidebar d-flex flex-column">
+                     <div class="sidebar-title">Search Products</div>
+                     <div class="sidebar-search form-group">
+                        <input type="text" placeholder="Search " class="form-control" id="searchinput">
+                     </div>
+                     <div class="sidebar-title fw-bold">Categories</div>
+                     <div class="category-list">
+                        <a href="#" class="d-flex text-decoration-none">Electronics</a>
+                        <a href="#" class="d-flex text-decoration-none">Kitchenware</a>
+                        <a href="#" class="d-flex text-decoration-none">Women outfit</a>
+                        <a href="#" class="d-flex text-decoration-none">Sports</a>
+                     </div>
+                   
+                     <div class="sidebar-title">Filter by price</div>
+                     <div class="price-filter">
+                        <div class="price-filter search d-flex flex-row justify-content-between">
+                            <div class="form-group">
+                                <select name="minprice" id="minprice" class="form-select">
+                                    <option value="0">0</option>
+                                    <option value="1000">1000</option>
+                                    <option value="2000">2000</option>
+                                    <option value="5000">5000</option>
+                                    <option value="10000">10000</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="maxprice" id="maxprice" class="form-select">
+                                    <option value="0">0</option>
+                                    <option value="1000">1000</option>
+                                    <option value="2000">2000</option>
+                                    <option value="5000">5000</option>
+                                    <option value="10000">10000</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="price-filter-title d-flex flex-row justify-content-start">
+                            <div id="label-min">Minprice</div>
+                            <div id="label-max">Maxprice</div>
+        </div>
+       </div>
+    
+
+       <button class="btn btn-danger clear-filter" id="clear">Clear filters</button>
+         
+                </div>
+
+                <div class="product-list-box" id="productlist">
+                    <!-- list of products -->
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+
+    </div>
+    
+</body>
+</html>

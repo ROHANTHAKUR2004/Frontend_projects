@@ -1,0 +1,65 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+nav{
+    font-size: 80%;
+    padding: 1rem;
+    background-color:blueviolet;
+}
+nav ul{
+   
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+nav li:first-child{
+    flex-grow: 1;
+    font-size: 2rem;
+}
+
+#basic{
+    background: blue;
+    margin: 0 auto;
+    gap: 2rem;
+}
+li a{
+    color: black;
+    row-gap: 3rem;
+}
+a:hover{
+    background-color: brown;
+    list-style: none;
+}
+#gap{
+    padding: 2rem;
+    margin: 1.5rem;
+    background: linear-gradient(blue blueviolet);
+}
+#abc{
+    display: flex;
+    font-size: 1rem;
+    border: 4rem;
+    border-radius: 10rem;
+    padding: 1rem;
+    background-color: aqua;
+}
+#abc:hover{
+    list-style: none;
+    background-color: green;
+}
+.grad{
+    height: 2px;
+    background-color: black;
+}
+#vs{
+    display: flex; 
+    justify-content: start;
+    font-size: 1.5rem;
+    color:yellow;
+}
