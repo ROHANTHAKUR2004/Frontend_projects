@@ -57,7 +57,7 @@ setInterval(function exec() {
         paddley += (-1)*pdy;
 
      }
-     else if(event.keyCode == 40 && paddley < table.offsetHeight - paddle.offsetHeight ){
+     else if(event.keyCode == 40 && paddley < table.offsetHeight - ( paddle.offsetHeight + 10 )){
         paddley += pdy;
      }
      paddle.style.top = `${paddley}px`;
