@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product list</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/product_list.css">
+</head>
+<body>
+
+    <div class="loder-backdrop" id="loder-backdrop">
+        <div class="loder2">
+          <div>
+              </div>
+          </div>
+      </div>
+
+      
+    <div class="product-list">
+
+        <nav id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="header-wrapper d-flex justify-content-between">
+                        <div class="logo d-inline-block">
+                            <a href="e.html" class="text-decoration-none">Shop Cart</a>
+                        </div>
+                        <div class="user-action d-flex flex-row">
+                            <a href="cart.html">Cart</a>
+                            <div class="user-intro" id="userintro">Hi user</div>
+                            <div class="logout-btn" id="logoutbtn">Logout</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+      <div class="container">
+        <div class="row">
+            <h2 class="text-center product-list-title">All Products</h2>
+            <div class="prosuct-list-wrapper d-flex flex-row">
+                <!-- sidebar -->
+                <div class="product-list-sidebar d-flex flex-column">
+                     <div class="sidebar-title">Search Products</div>
+                     <div class="sidebar-search form-group">
+                        <input type="text" placeholder="Search " class="form-control" id="searchinput">
+                     </div>
+                     <div class="sidebar-title fw-bold">Categories</div>
+                     <div class="category-list" id="category-list">
+                       <!-- WILL BE POPUALTR BY BU JS -->
+                        <!-- <a href="product_list.html?category=electronics" class="d-flex text-decoration-none">Electronics</a>
+                       
+                            <a href="product_list.html?category=jewelery" class="d-flex text-decoration-none">Jewelery</a>
+                       
+                        <a href="product_list.html?category=men's clothing" class="d-flex text-decoration-none">Mens clothing</a>
+                      
+                        <a href="product_list.html?category=women's clothing" class="d-flex text-decoration-none">Womens clothing</a> -->
+                     </div>
+                   
+                     <div class="sidebar-title">Filter by price</div>
+                     <div class="price-filter">
+                        <div class="price-filter search d-flex flex-row justify-content-between">
+                            <div class="form-group">
+                                <select name="minprice" id="minprice" class="form-select">
+                                    <option value="0">0</option>
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="maxprice" id="maxprice" class="form-select">
+                                    <option value="0">0</option>
+                                    <option value="10">10</option>
+                                    <option value="200">200</option>
+                                    <option value="500">500</option>
+                                    <option value="1000">1000</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="price-filter-title d-flex flex-row justify-content-start">
+                            <div id="label-min">Minprice</div>
+                            <div id="label-max">Maxprice</div>
+        </div>
+       </div>
+    
+       <button class="btn btn-warning clear-filter" id="search">Search</button>
+       <button class="btn btn-danger clear-filter" id="clear">Clear filters</button>
+         
+                </div>
+
+                <div class="product-list-box" id="productlist">
+                    <!-- list of products -->
+                    <a href="product.html" target="_blank" class="product-item text-decoration-none d-inline-block">
+                        <div class="product-img">
+                               <img src="img/product.avif" alt="">
+                        </div>
+                        <div class="product-name text-center">Some product</div>
+                        <div class="product-price text-center">&#8377; 10000</div>
+                    </a>
+                  
+                  
+                   
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    <script src="js/product_list.js"></script>
+</body>
+</html>
