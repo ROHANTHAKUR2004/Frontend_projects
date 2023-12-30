@@ -1,0 +1,19 @@
+.grid{
+    height: 355px;
+    width: 355px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.turn-highlight{
+    color: beige;
+}
+.restart{
+    padding: 0.7rem;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+}
